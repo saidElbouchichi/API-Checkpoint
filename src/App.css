@@ -1,0 +1,11 @@
+body { margin: 0; font-family: Arial, sans-serif; background: #f1f5f9; color: #0f172a; }
+.app { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem; }
+h1 { text-align: center; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; }
+.user { background: #fff; border-radius: 14px; padding: 1.2rem; box-shadow: 0 6px 18px rgba(15, 23, 42, .08); }
+.user h3 { margin: .6rem 0 .2rem; }
+.user p { margin: .25rem 0; font-size: .92rem; color: #334155; }
+.username { color: #6366f1 !important; }
+.avatar { width: 48px; height: 48px; border-radius: 50%; background: #6366f1; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.3rem; }
+.info { text-align: center; }
+.error { color: #dc2626; }
